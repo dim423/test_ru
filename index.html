@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тесты по литературе</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="variant-container" id="variant-container">
+            <h2>Выберите вариант теста</h2>
+            <button data-variant="1">Вариант 1</button>
+            <button data-variant="2">Вариант 2</button>
+            <button data-variant="3">Вариант 3</button>
+            <button data-variant="4">Вариант 4</button>
+            <button data-variant="5">Вариант 5</button>
+            <button data-variant="6">Вариант 6</button>
+            <button data-variant="7">Вариант 7</button>
+            <button data-variant="8">Вариант 8</button>
+            <button data-variant="9">Вариант 9</button>
+        </div>
+        
+        <div class="sidebar hidden" id="sidebar">
+            <h3>Выберите тему</h3>
+            <button data-story="onegin">Толерантность и диалог межнациональных культур в Казахстане</button>
+            <button data-story="oblomov">Физика в современном мире: возможное и невозможное в природе</button>
+            <button data-story="hero">Настоящее и будущее цифровых технологий</button>
+            <button data-story="bespridan">Биотехнологии для жизни</button>
+            <button data-story="warimir">Глобальные проблемы энергетики</button>
+            <button data-story="oldsun">Экология: нефтяная и ядерная промышленность</button>
+            <button data-story="donstory">Молодёжная культура: проблемы молодого поколения</button>
+        </div>
+        
+        <div class="main">
+            <div class="quiz-container hidden" id="quiz-container">
+                <div class="story-header" id="story-title"></div>
+                <div class="question">
+                    <div class="question-text" id="question-text"></div>
+                    <div class="options" id="options-container"></div>
+                </div>
+                <div class="timer" id="timer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
